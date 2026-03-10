@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | YouTube Speed Controller</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FF0000; /* YouTube Red */
+            --text-main: #1a1a1a;
+            --text-muted: #666;
+            --bg-body: #f9f9f9;
+            --bg-card: #ffffff;
+            --border: #eeeeee;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            padding: 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            border-left: 4px solid var(--primary);
+            padding-left: 15px;
+        }
+
+        p, li {
+            font-size: 1.05rem;
+            color: #333;
+        }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th { background-color: #fafafa; font-weight: 600; }
+
+        .summary-box {
+            background: #fff5f5;
+            border: 1px solid #ffebeb;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .btn-github {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 25px; }
+            h1 { font-size: 1.8rem; }
+            .summary-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Privacy Policy</h1>
+        <div class="last-updated">YouTube Speed Controller — Last updated: March 9, 2026</div>
+    </header>
+
+    <section>
+        <h2>Overview</h2>
+        <p>YouTube Speed Controller is a free, open-source browser extension licensed under the <strong>MIT License</strong>. This extension is designed with a strict commitment to user privacy. It does not collect, transmit, store, or share any personal data whatsoever.</p>
+    </section>
+
+    <section>
+        <h2>Data Collection & Storage</h2>
+        <p><strong>We do not collect any data.</strong> No personal information, browsing history, or analytics are ever recorded. All settings are stored <strong>locally on your device</strong> via Chrome's <code>storage</code> API.</p>
+    </section>
+
+    <section>
+        <h2>Permissions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><code>storage</code></td><td>Save your speed presets locally.</td></tr>
+                <tr><td><code>scripting</code></td><td>Inject the speed controls into YouTube videos.</td></tr>
+                <tr><td><code>activeTab</code></td><td>Apply speed changes to the current YouTube tab.</td></tr>
+                <tr><td><code>youtube.com</code></td><td>Operate specifically on the YouTube domain.</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Changes to This Policy</h2>
+        <p>Any policy changes will be noted here and officially announced via:</p>
+        <ul>
+            <li>Project updates on the <strong>GitHub repository</strong>.</li>
+            <li>Release notes in the <strong>Chrome Web Store</strong>.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Open Source</h2>
+        <p>You can audit the code or report issues via the official repository.</p>
+        <a href="https://github.com/YOUR_USERNAME/YOUTUBE_REPO" class="btn-github">View on GitHub</a>
+    </section>
+
+    <div class="summary-box">
+        <ul class="summary-grid">
+            <li>✅ No data collected</li>
+            <li>✅ No network requests</li>
+            <li>✅ No tracking or analytics</li>
+            <li>✅ Fully open source (MIT)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
